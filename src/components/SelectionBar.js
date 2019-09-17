@@ -9,12 +9,11 @@ class SelectionBar extends React.Component{
             dropdown : 'python-dev',
  
         }
-        this.handleChange = this.handleChange.bind(this)
     }
     
     
     
-    handleChange(event) {
+    handleChange = (event) => {
         const {name, value} = event.target
          this.setState({ [name]: value })
     }
