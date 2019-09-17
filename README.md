@@ -2,7 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the project first install the dependencies:
+
+## Installation
+
+Install Material UI and React MDL used for styling
+
+```bash
+npm install @material-ui/core
+npm install @material-ui/icons
+npm install react-mdl
+```
+
 
 ### `npm start`
 
